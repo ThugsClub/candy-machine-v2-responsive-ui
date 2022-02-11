@@ -518,7 +518,14 @@ const Home = (props: HomeProps) => {
                             <br/>
                             <MintButtonContainer>
                                 {!isActive && candyMachine?.state.goLiveDate ? (
-                                    <h3>You are not allowed to mint</h3>) : (
+                                    <Countdown
+                                        date={toDate(candyMachine?.state.goLiveDate)}
+                                        onMount={({completed}) => completed && setIsActive(true)}
+                                        onComplete={() => {
+                                            setIsActive(true);
+                                        }}
+                                        renderer={renderCounter}
+                                    />) : (
                                     !wallet ? (
                                             <ConnectButton>Connect Wallet</ConnectButton>
                                         ) :
