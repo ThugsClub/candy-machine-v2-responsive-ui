@@ -494,14 +494,14 @@ const Home = (props: HomeProps) => {
                             <ConnectButton>Connect Wallet</ConnectButton>}
                     </Wallet>
                 </WalletContainer>
-                <ShimmerTitle>MINT ON THE 11TH!</ShimmerTitle>
+                <ShimmerTitle>PRESALE IS LIVE!</ShimmerTitle>
                 <br/>
 
 
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>555 Thugs Club</h2>
+                            <h2>Koala Koalition</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
@@ -576,20 +576,24 @@ const Home = (props: HomeProps) => {
                     <DesContainer>
                         <Des elevation={2}>
                             <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>INTRODUCTION</GoldTitle></LogoAligner>
-                            <p>555 Shady thugs living on the solana blockchain.</p>
-                            <p>Stake and earn $THUG.</p>
+                            <p>A koalition is a group formed when two or more people, factions, states, political parties, militaries, or other parties agree to work together, often temporarily, in a partnership to achieve a common goal. 
+                            In the Solana Galaxy, there lies a hidden and highly advanced Koala civilization. 
+                            Recently, their planet was hit by a massive asteroid, wiping out Koala life as we know it.
+                            Now, the remnants of the Great Koala Tribes must set their differences aside to come together and form the Koalition.
+                            As their planet burns to the ground, it’s a race against the clock for the Koalition to gather their resources and build a spaceship to lead them to safety.
+                            Their destination? Planet Sol.
+
+Will you join the Koalition and help lead the Koalas to Planet Sol?.</p>
                             <p>No one is safe...</p>
                         </Des>
                         <Des elevation={2}>
                             <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>WHAT MAKES US DIFFERENT?</GoldTitle></LogoAligner>
-                            <p>Thugs Club will be limited to the low amount of 555 people. 
-                            It will be a private club bringing exclusive utilities and advantages for its holders. </p>
-                            <p>We strive to bring quality tools and valuable information to benefit the members of Thugs Club.</p>
-                            <p>We are aiming to build a strong community free of paper-hands.</p>
+                            <p>Building a spaceship for interplanetary travel is no joke. The Koalas have a lot of work to do if they expect to make it to Planet Sol. We need all hands on deck!
+                            Resources will be gathered through Whitelist Presales and Giveaways.</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>WHY SUCH LOW SUPPLY?</GoldTitle></LogoAligner>
-                            <p>The reason for the low supply is because we want it to be exclusive, just as exclusive as the features rewarded to its holders.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>WHY IS THE MINT SUPPLY 555?</GoldTitle></LogoAligner>
+                            <p>The reason for the low supply is because this is a presale only at the moment!</p>
                             <p></p>
                             <p></p>
                         </Des>
