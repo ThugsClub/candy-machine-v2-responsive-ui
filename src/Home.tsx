@@ -501,12 +501,12 @@ const Home = (props: HomeProps) => {
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>Koala Koalition</h2>
+                            <h2>The Planetarians Secret Mint</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
-                                src="cool-cats.gif"
-                                alt="NFT To Mint"/></div>
+                                src="logo.png"
+                                alt="Secret Mint"/></div>
                             <br/>
                             {wallet && isActive && whitelistEnabled && (whitelistTokenBalance > 0) &&
                               <h3>You have {whitelistTokenBalance} whitelist mint(s) remaining.</h3>}
@@ -575,25 +575,17 @@ const Home = (props: HomeProps) => {
                     </DesContainer>
                     <DesContainer>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>INTRODUCTION</GoldTitle></LogoAligner>
-                            <p>A koalition is a group formed when two or more people, factions, states, political parties, militaries, or other parties agree to work together, often temporarily, in a partnership to achieve a common goal. 
-                            In the Solana Galaxy, there lies a hidden and highly advanced Koala civilization. 
-                            Recently, their planet was hit by a massive asteroid, wiping out Koala life as we know it.
-                            Now, the remnants of the Great Koala Tribes must set their differences aside to come together and form the Koalition.
-                            As their planet burns to the ground, it’s a race against the clock for the Koalition to gather their resources and build a spaceship to lead them to safety.
-                            Their destination? Planet Sol.
-
-Will you join the Koalition and help lead the Koalas to Planet Sol?.</p>
-                            <p>No one is safe...</p>
-                        </Des>
-                        <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>WHAT MAKES US DIFFERENT?</GoldTitle></LogoAligner>
-                            <p>Building a spaceship for interplanetary travel is no joke. The Koalas have a lot of work to do if they expect to make it to Planet Sol. We need all hands on deck!
-                            Resources will be gathered through Whitelist Presales and Giveaways.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>WHY IS THE MINT SUPPLY 555?</GoldTitle></LogoAligner>
+                            <p>The reason for the low supply is because this is a secret mint!</p>
+                            <p></p>
                         </Des>
                         <Des elevation={2}>
                             <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>WHY IS THE MINT SUPPLY 555?</GoldTitle></LogoAligner>
-                            <p>The reason for the low supply is because this is a presale only at the moment!</p>
+                            <p>The reason for the low supply is because this is a secret mint!</p>
+                        </Des>
+                        <Des elevation={2}>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>WHY IS THE MINT SUPPLY 555?</GoldTitle></LogoAligner>
+                            <p>The reason for the low supply is because this is a secret mint!</p>
                             <p></p>
                             <p></p>
                         </Des>
