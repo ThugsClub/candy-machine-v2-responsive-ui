@@ -501,11 +501,11 @@ const Home = (props: HomeProps) => {
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>The Planetarians Secret Mint</h2>
+                            <h2>Eaglez Secret Mint</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
-                                src="logo.png"
+                                src="cool-cats.gif"
                                 alt="Secret Mint"/></div>
                             <br/>
                             {wallet && isActive && whitelistEnabled && (whitelistTokenBalance > 0) &&
@@ -575,13 +575,16 @@ const Home = (props: HomeProps) => {
                     </DesContainer>
                     <DesContainer>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>WHY IS THE MINT SUPPLY 555?</GoldTitle></LogoAligner>
-                            <p>The reason for the low supply is because this is a secret mint!</p>
-                            <p></p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>WHAT IS EAGLEZ?</GoldTitle></LogoAligner>
+                            <p>Eaglez is a 4000 supply PFP/Utility NFT project that focuses on quality over quantity.</p>
+                            <p>Our roadmap consists of 4 simple components, Staking, Breeding, The DAO, and merchandise!</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>WHY IS THE MINT SUPPLY 555?</GoldTitle></LogoAligner>
-                            <p>The reason for the low supply is because this is a secret mint!</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>MERCHANDISE?</GoldTitle></LogoAligner>
+                            <p>We will be investing $50,000-$100,000 of mint proceeds into starting up the merch line. 
+                            The product cost itself will be roughly $50,000, the rest of the expenses will be for the storefront with Solana Pay Integration. 
+                            We will be producing a wide array of high quality merchandise that will only be available for purchase with our $FLY token via Solana Pay on our storefront. 
+                            We will also offer global shipping for all merch drops!</p>
                         </Des>
                         <Des elevation={2}>
                             <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>WHY IS THE MINT SUPPLY 555?</GoldTitle></LogoAligner>
